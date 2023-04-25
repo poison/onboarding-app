@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Outfit-Medium.ttf",
+      "sha1": "5c3a6a6851fe320dd994725a16ce8cea405ed52b"
+    },
+    {
+      "path": "assets/fonts/Sora-Regular.ttf",
+      "sha1": "6cb1d2a219dd0b1a67f0fd0079f4d19c96ef4a12"
+    }
+  ]
+}
