@@ -2,6 +2,14 @@
   "migIndex": 1,
   "data": [
     {
+      "path": "src/assets/fonts/Inter-ExtraBold.ttf",
+      "sha1": "7547e67ff62f82c640e3075248bc6c822aee0855"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Regular.ttf",
+      "sha1": "c2767d146c3c10fe6c9b8ac0f181ef907c111f19"
+    },
+    {
       "path": "src/assets/fonts/Outfit-Medium.ttf",
       "sha1": "5c3a6a6851fe320dd994725a16ce8cea405ed52b"
     },
