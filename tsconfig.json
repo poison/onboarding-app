@@ -11,6 +11,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "useDefineForClassFields": true,
+
+    /* Allow absolute imports vs source dir */
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    }
   },
   "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx", ".*rc.js"]
 }
