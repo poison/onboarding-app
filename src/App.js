@@ -7,7 +7,7 @@ import {
   StyleSheet,
   ScrollView,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons'; 
+import Icon from 'react-native-vector-icons/Ionicons';
 import Next from 'react-native-vector-icons/Feather';
 import Check from 'react-native-vector-icons/Feather';
 import Circle from 'react-native-vector-icons/FontAwesome';
