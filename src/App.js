@@ -13,7 +13,7 @@ import Check from 'react-native-vector-icons/Feather';
 import Circle from 'react-native-vector-icons/FontAwesome';
 import NavIcon from 'react-native-vector-icons/EvilIcons';
 import { CountryPicker } from 'react-native-country-codes-picker';
-import Flag from './assets/images/flag.png';
+import Flag from './assets/images/flags.png';
 import { Image } from 'react-native';
 import OTPInputView from '@twotalltotems/react-native-otp-input';
 import { Slider } from 'react-native-elements';
@@ -252,7 +252,7 @@ function App() {
             >
               {countryFlag == '' ? (
                 <Image
-                  source={require('./assets/images/flag.png')}
+                  source={require('./assets/images/flags.png')}
                   style={{
                     width: 20,
                     height: 20,
@@ -287,7 +287,7 @@ function App() {
           </View>
 
           <View style={{ marginTop: 20 }}>
-            <Text style={{ color: '#7f8082', fontFamily: 'Inter-Regular' }}>
+            <Text style={{ color: '#7f8082', fontFamily: 'Inter-Regulars' }}>
               We will send you a text with a verification code.
             </Text>
             <Text style={{ color: '#7f8082' }}>
@@ -346,7 +346,7 @@ function App() {
               style={{
                 color: '#7f8082',
                 marginTop: 10,
-                fontFamily: 'Inter-Regular',
+                fontFamily: 'Inter-Regulars',
               }}
             >
               We texted you one-time verification code to
@@ -397,7 +397,7 @@ function App() {
                 color: '#bebfc1',
                 marginRight: 20,
                 fontSize: 20,
-                fontFamily: 'Inter-Regular',
+                fontFamily: 'Inter-Regulars',
               }}
             >
               1
@@ -421,7 +421,7 @@ function App() {
                   }}
                 >
                   <Image
-                    source={require('./assets/images/car.png')}
+                    source={require('./assets/images/cars.png')}
                     style={{ width: 20, resizeMode: 'contain', height: 20 }}
                   />
                 </View>
@@ -429,7 +429,7 @@ function App() {
                   style={{
                     color: '#000',
                     fontSize: 16,
-                    fontFamily: 'Inter-Regular',
+                    fontFamily: 'Inter-Regulars',
                   }}
                 >
                   Car
@@ -453,7 +453,7 @@ function App() {
                 color: '#bebfc1',
                 marginRight: 20,
                 fontSize: 20,
-                fontFamily: 'Inter-Regular',
+                fontFamily: 'Inter-Regulars',
               }}
             >
               2
@@ -477,7 +477,7 @@ function App() {
                   }}
                 >
                   <Image
-                    source={require('./assets/images/train.png')}
+                    source={require('./assets/images/trains.png')}
                     style={{ width: 20, resizeMode: 'contain', height: 20 }}
                   />
                 </View>
@@ -485,7 +485,7 @@ function App() {
                   style={{
                     color: '#000',
                     fontSize: 16,
-                    fontFamily: 'Inter-Regular',
+                    fontFamily: 'Inter-Regulars',
                   }}
                 >
                   Public transport
@@ -509,7 +509,7 @@ function App() {
                 color: '#bebfc1',
                 marginRight: 20,
                 fontSize: 20,
-                fontFamily: 'Inter-Regular',
+                fontFamily: 'Inter-Regulars',
               }}
             >
               3
@@ -533,7 +533,7 @@ function App() {
                   }}
                 >
                   <Image
-                    source={require('./assets/images/cycle.png')}
+                    source={require('./assets/images/cycles.png')}
                     style={{ width: 20, resizeMode: 'contain', height: 20 }}
                   />
                 </View>
@@ -541,7 +541,7 @@ function App() {
                   style={{
                     color: '#000',
                     fontSize: 16,
-                    fontFamily: 'Inter-Regular',
+                    fontFamily: 'Inter-Regulars',
                   }}
                 >
                   Bike
@@ -565,7 +565,7 @@ function App() {
                 color: '#bebfc1',
                 marginRight: 20,
                 fontSize: 20,
-                fontFamily: 'Inter-Regular',
+                fontFamily: 'Inter-Regulars',
               }}
             >
               4
@@ -589,7 +589,7 @@ function App() {
                   }}
                 >
                   <Image
-                    source={require('./assets/images/walk.png')}
+                    source={require('./assets/images/walks.png')}
                     style={{ width: 20, resizeMode: 'contain', height: 20 }}
                   />
                 </View>
@@ -597,7 +597,7 @@ function App() {
                   style={{
                     color: '#000',
                     fontSize: 16,
-                    fontFamily: 'Inter-Regular',
+                    fontFamily: 'Inter-Regulars',
                   }}
                 >
                   Walk
